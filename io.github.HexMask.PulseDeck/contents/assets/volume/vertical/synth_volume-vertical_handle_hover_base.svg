@@ -1,0 +1,9 @@
+<!-- SPDX-FileCopyrightText: 2026 David Holbert -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="28" viewBox="0 0 40 28">
+
+  <rect x="2" y="2" width="36" height="24" rx="8" fill="#3b4047" stroke="#17191c" stroke-width="2"/>
+  <rect x="10.0" y="8" width="21.0" height="12" rx="4" fill="#22262b" stroke="#6b7078" stroke-width="1"/>
+
+</svg>

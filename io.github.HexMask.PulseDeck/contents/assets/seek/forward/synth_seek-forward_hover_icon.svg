@@ -1,0 +1,9 @@
+<!-- SPDX-FileCopyrightText: 2026 David Holbert -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+
+  <polygon points="16,13 29,24 16,35" fill="#f2f2f2"/>
+  <polygon points="24,13 37,24 24,35" fill="#f2f2f2"/>
+
+</svg>

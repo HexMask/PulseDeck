@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-FileCopyrightText: 2026 David Holbert -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="accentColor" type="String">
+            <label>Accent color</label>
+            <description>Runtime tint applied to the white accent-mask asset layers.</description>
+            <default>#0ee841</default>
+        </entry>
+        <entry name="showSeekButtons" type="Bool">
+            <label>Show seek buttons</label>
+            <description>Show optional seek-backward / seek-forward controls.</description>
+            <default>false</default>
+        </entry>
+        <entry name="audioReactiveGlow" type="Bool">
+            <label>Audio-reactive glow</label>
+            <description>Modulate the idle accent glow intensity with the live system output audio level.</description>
+            <default>true</default>
+        </entry>
+        <entry name="seekInterval" type="Int">
+            <label>Seek interval (seconds)</label>
+            <description>Shared seek step used by both seek buttons.</description>
+            <default>10</default>
+            <min>1</min>
+            <max>120</max>
+        </entry>
+        <entry name="automaticPlayer" type="Bool">
+            <label>Automatically follow the active player</label>
+            <description>Prefer the currently Playing MPRIS player, otherwise the most recently active one.</description>
+            <default>true</default>
+        </entry>
+        <entry name="manualPlayer" type="String">
+            <label>Manual player identity</label>
+            <description>MPRIS Identity to lock to when automatic selection is off (e.g. Brave, Firefox, VLC, Spotify).</description>
+            <default></default>
+        </entry>
+    </group>
+</kcfg>

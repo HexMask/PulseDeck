@@ -1,0 +1,10 @@
+<!-- SPDX-FileCopyrightText: 2026 David Holbert -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+
+  <rect x="3" y="3" width="58" height="58" rx="12" fill="#2f3237" stroke="#17191c" stroke-width="2"/>
+  <rect x="8" y="8" width="48" height="48" rx="8" fill="#3a3e44" stroke="#6b7078" stroke-width="1.4"/>
+  <path d="M12 14 H52" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.2"/>
+
+</svg>

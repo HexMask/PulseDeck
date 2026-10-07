@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "David Holbert"
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "Compact hardware-inspired media controls for Plasma with MPRIS transport, system volume, customizable accent lighting, and audio-reactive pulse.",
+        "Icon": "media-playback-start",
+        "Id": "io.github.HexMask.PulseDeck",
+        "License": "GPL-3.0-or-later",
+        "Name": "PulseDeck",
+        "Version": "1.0.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

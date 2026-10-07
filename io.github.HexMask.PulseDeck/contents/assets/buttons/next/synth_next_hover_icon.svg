@@ -1,0 +1,9 @@
+<!-- SPDX-FileCopyrightText: 2026 David Holbert -->
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+
+  <path d="M43 20 V44 H47 V20 Z" fill="#f2f2f2"/>
+  <path d="M19 18 L41 32 L19 46 Z" fill="#f2f2f2"/>
+
+</svg>
