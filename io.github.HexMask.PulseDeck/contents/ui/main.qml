@@ -17,6 +17,10 @@ PlasmoidItem {
     // The panel is the faceplate; the PulseDeck hardware draws its own body.
     Plasmoid.backgroundHints: PlasmaCore.Types.NoBackground
 
+    // Do NOT set compactRepresentation — let Plasma use the default
+    // full representation (this root item). The Icon in metadata.json
+    // is ONLY for the Add Widgets selector.
+
     readonly property bool isVertical: Plasmoid.formFactor === PlasmaCore.Types.Vertical
     readonly property color accentColor: {
         const raw = String(Plasmoid.configuration.accentColor || "#0ee841");
@@ -133,7 +137,7 @@ PlasmoidItem {
             active: mpris.playing
             enabledButton: mpris.hasPlayer && mpris.canSeek
             Layout.preferredWidth: root.seekSize
-            Layout.pferredHeight: root.seekSize
+            Layout.preferredHeight: root.seekSize
             onClicked: mpris.seekBy(root.seekInterval)
             audioLevel: audioMon.level
             audioReactive: root.audioReactive
